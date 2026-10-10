@@ -1,0 +1,33 @@
+﻿# Nested Git repository metadata
+Purposed_System/Source Code/yolo/.git/
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+
+# Training outputs and temporary files
+runs/
+wandb/
+*.log
+.DS_Store
+Thumbs.db
+
+# Preserve nested YOLO Git metadata locally, but don't publish it
+Purposed_System/Source Code/yolo/.git_backup/
+
+# Temporary Microsoft Office lock files
+~$*.docx
