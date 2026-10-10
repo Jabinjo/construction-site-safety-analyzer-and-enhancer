@@ -1,6 +1,6 @@
 ﻿# Construction Site Safety Analyzer and Enhancer
 
-Computer vision-based construction-site safety monitoring using a trained YOLOv5 model.
+Computer vision-based construction-site safety monitoring using a trained YOLOv8 model.
 
 ## Features
 - Live webcam object detection
